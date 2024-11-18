@@ -38,8 +38,7 @@ public class LoginPage extends TestBase{
     public void yellowDuckSearch(String search) {
         WebElement searchFieldElement = driver.findElement(searchField);
         searchFieldElement.sendKeys(search);
-        Actions actions = new Actions(driver);
-        actions.sendKeys(searchFieldElement, Keys.ENTER).perform();
+        searchFieldElement.sendKeys(Keys.ENTER);
     }
 
     public void assertRecentlyViewdDuckSuccessDisplay() {

@@ -1,8 +1,10 @@
+package pageObject;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class CartPage extends TestBase{
+public class CartPage extends TestBase {
     private By paragraphOnCartPage = By.xpath("//*[text()='There are no items in your cart.']");
     private final WebDriver driver;
 

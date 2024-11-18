@@ -1,3 +1,5 @@
+package pageObject;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,7 +8,7 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class PurpleDuckPage extends TestBase{
+public class PurpleDuckPage extends TestBase {
     private By addpurpleDuckToCartBtn = By.name("add_cart_product");
     private By quantityInCart = By.xpath("//span[@class='quantity']");
     private final WebDriver driver;

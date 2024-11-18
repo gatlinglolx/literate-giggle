@@ -1,6 +1,10 @@
-import org.testng.annotations.Test;
+package pageObject;
 
-public class LoginTest extends TestBase{
+import org.testng.annotations.Test;
+import pageObject.HomePage;
+import pageObject.LoginPage;
+
+public class LoginTest extends TestBase {
     @Test
     public void successLoginTest() {
         LoginPage loginPage = new LoginPage(driver);

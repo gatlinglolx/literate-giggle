@@ -1,3 +1,5 @@
+package pageObject;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -5,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.asserts.SoftAssert;
 
-public class LoginPage extends TestBase{
+public class LoginPage extends TestBase {
     private By loginField = By.cssSelector("input[type='text']");
     private By passField = By.cssSelector("input[type='password']");
     private By loginBtn = By.name("login");

@@ -15,6 +15,6 @@ public class LoginTest extends TestBase{
     public void recentlyViewDuckDisplayTest() {
         LoginPage loginPage = new LoginPage(driver);
 
-        loginPage.recentlyViewdDuckSuccessDisplay();
+        loginPage.assertRecentlyViewdDuckSuccessDisplay();
     }
 }

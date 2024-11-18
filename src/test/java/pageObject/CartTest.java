@@ -1,6 +1,9 @@
-import org.testng.annotations.Test;
+package pageObject;
 
-public class CartTest extends TestBase{
+import org.testng.annotations.Test;
+import pageObject.CartPage;
+
+public class CartTest extends TestBase {
     @Test
     public void emptyCartMessageTest() {
         LoginPage loginPage = new LoginPage(driver);

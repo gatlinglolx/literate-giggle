@@ -1,6 +1,9 @@
-import org.testng.annotations.Test;
+package pageObject;
 
-public class SearchTest extends TestBase{
+import org.testng.annotations.Test;
+import pageObject.LoginPage;
+
+public class SearchTest extends TestBase {
     @Test
     public void yellowDuckSearchTest() {
         LoginPage loginPage = new LoginPage(driver);

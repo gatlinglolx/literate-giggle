@@ -1,8 +1,10 @@
+package pageObject;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-public class HomePage extends TestBase{
+public class HomePage extends TestBase {
     private By confrimationLoginMessage = By.className("notice");
     private final WebDriver driver;
     

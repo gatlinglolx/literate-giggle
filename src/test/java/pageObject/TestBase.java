@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import java.time.Duration;
 
 public class TestBase {
+
     protected WebDriver driver;
     protected final String baseUrl = "https://litecart.stqa.ru/en/";
 

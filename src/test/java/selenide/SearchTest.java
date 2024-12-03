@@ -12,7 +12,7 @@ public class SearchTest extends TestBase {
 
     @Story("Searching for a duck with a search field")
     @Description("When user enters existing duck name in search field end enters ENTER btn searched duck must appear")
-    @Test
+    @Test(description="search for yellow duck")
     public void yellowDuckSearchTest() {
         LoginPage.yellowDuckSearch(ConfProperties.getProperty("search"));
 

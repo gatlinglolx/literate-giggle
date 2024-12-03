@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
 import static com.codeborne.selenide.Browsers.CHROME;
+import static com.codeborne.selenide.Browsers.EDGE;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.open;
 
